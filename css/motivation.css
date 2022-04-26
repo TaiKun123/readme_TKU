@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 下面開始 */
+.container{
+    /* border: 1px solid rgb(2, 192, 255); */
+    width: 1600px;
+    height: 1000px;
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    background-image: url("https://www.crazybackground.com/wp-content/uploads/2019/12/vector-grey-white-abstract-technology-circles-background.jpg")
+}
+.title{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_name{
+    width: 500px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.connect{
+    width: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.connect li{
+    border-top: 0.2px solid #000;
+    border-bottom: 1.5px solid #000;
+    border-right: 1.5px solid #000;
+    border-left: 1.5px solid #000;
+    width: 180px;
+    height: 30px;
+    margin: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.7);
+}
+.connect li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.connect li:hover{
+    font-size: 25px;
+    color:rgba(115, 115, 115, 0.508);
+}
+.content{
+    /* border: 1px solid #000; */
+    width: 80%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: gold;
+    font-weight: 600;
+}
+.first{
+    /* border: 1px solid #000; */
+    width:80% ;
+    height: 240px;
+}
+.first i{
+    font-size: 27px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+.second{
+    /* border: 1px solid #000; */
+    width:80% ;
+    height: 195px;
+}
+.second i{
+    font-size: 27px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+.third{
+    /* border: 1px solid #000; */
+    width:80% ;
+    height: 110px;
+}
+.third i{
+    font-size: 27px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+.back{
+    /* border: 1px solid #000; */
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    font-size: 28px;
+    margin: 40px;
+}
+.back a{
+    text-decoration: none;
+    color: #000;
+}
+.back a:hover{
+    font-size: 33px;
+    color: rgba(0, 0, 0, 0.508);
+}
