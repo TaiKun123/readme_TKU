@@ -46,10 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* 下面開始 */
+/* --------------------------------------------------- */
 .container{
     /* border: 1px solid rgb(2, 192, 255); */
-    width: 1600px;
+    width: 100%;
     display:flex;
     flex-direction:column ;
     align-items: center;
@@ -58,12 +58,12 @@ table {
 }
 .title{
     width: 80%;
-    height: 100px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 .logo_name{
-    width: 500px;
+    width: 30%;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ table {
     margin-bottom: 0;
 }
 .connect{
-    width: 630px;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,30 +101,55 @@ table {
     font-size: 25px;
     color:rgba(115, 115, 115, 0.508);
 }
+/* --------------------------------------------------- */
+@media(max-width:768px){
+    .title{
+        flex-direction: column;
+        align-items:center ;
+    }
+    .logo_name{
+        width: 100%;
+        justify-content: center;
+    }
+    .connect{
+        width: 100%;
+    }
+    .connect li{
+        font-size:14px ;    
+    }
+    .connect li:hover{
+        font-size: 16px;
+    }
+}
+/* --------------------------------------------------- */
 .photo{
     width: 80%;
+    margin-bottom: 10px;
 }
 .photo img{
     width: 100%;
     height: 520px;
 }   
+/* --------------------------------------------------- */
 .introduce{
     width: 80%;
-    height: 360px;
+    /* height: 360px; */
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 .picture{
     border: 2px solid #a1a1a1;   
     padding: 10px 10px;           
     background: #ffffff;          
-    border-radius: 15px;    
+    border-radius: 15px;  
+    text-align: center;
 }
 .picture img{
-    width: 200px;
-    height: 230px;
+    width: 95%;
+    height: 80%;
 }
 .info{
     border: 2px solid #000;
@@ -167,18 +192,38 @@ table {
     padding: 20px;
     font-size: 22px;
 }
+/* --------------------------------------------------- */
+@media(max-width:768px){
+    .introduce{
+        flex-direction: column;
+    }
+    .picture{
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    .info{
+        width: 100%;
+    }
+    .score{
+        width: 100%;
+    }
+}
+/* --------------------------------------------------- */
 .readme{
+    /* border: 1px solid #000; */
     width: 80%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 .introspect{
     border: 2px solid rgb(0, 0, 0);
     width: 30%;
-    height: 80%;
+    height: 300px;
 }
 .introspect i{
     font-size:130px ;
@@ -195,12 +240,12 @@ table {
     font-size: 45px;
     padding-top: 45px;
     color: deepskyblue;
+    text-align: center;
 }
 .myself{
     border: 2px solid rgb(0, 0, 0);
     width: 30%;
-    height: 80%;
-    text-decoration: none;
+    height: 300px;
 }
 .myself  i{
     font-size:125px ;
@@ -226,7 +271,7 @@ table {
 .motivation{
     border: 2px solid rgb(0, 0, 0);
     width: 30%;
-    height: 80%;
+    height: 300px;
 }
 .motivation i{
     font-size:130px ;
@@ -248,3 +293,19 @@ table {
     text-align: center;
     color: gold;
 }
+/* --------------------------------------------------- */
+@media(max-width:768px){
+    .readme{
+        flex-direction: column;
+    }
+    .myself{
+        width: 100%;
+    }
+    .introspect{
+        width: 100%;
+    }
+    .motivation{
+        width: 100%;
+    }
+}
+/* --------------------------------------------------- */
