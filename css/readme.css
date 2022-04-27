@@ -173,6 +173,9 @@ table {
     padding: 20px;
     font-size: 22px;
 }
+.test{
+    display: none;
+}
 .score{
     border: 2px solid #000;
     width: 32%;
@@ -206,7 +209,9 @@ table {
     .info{
         width: 100%;
     }
-
+    .test{
+        display: block;
+    }
     .score{
         width: 100%;
     }
