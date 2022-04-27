@@ -206,7 +206,7 @@ table {
     .info{
         width: 100%;
     }
-    
+
     .score{
         width: 100%;
     }
@@ -302,14 +302,25 @@ table {
     }
     .myself{
         width: 100%;
+        height: auto;
+    }
+    .myself h3{
+        margin-top: 10px;
     }
     .introspect{
         width: 100%;
-        height: 350px;
+        height: auto;
         font-size: 40px;
+    }
+    .introspect h3{
+        margin-top: 10px;
     }
     .motivation{
         width: 100%;
+        height: auto;
+    }
+    .motivation h3{
+        margin-top: 10px;
     }
 }
 /* --------------------------------------------------- */
