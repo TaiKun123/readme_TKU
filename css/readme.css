@@ -300,12 +300,15 @@ table {
     }
     .myself{
         width: 100%;
+        height: auto;
     }
     .introspect{
         width: 100%;
+        height: auto;
     }
     .motivation{
         width: 100%;
+        height: auto;
     }
 }
 /* --------------------------------------------------- */
