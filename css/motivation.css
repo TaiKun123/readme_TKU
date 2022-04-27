@@ -115,7 +115,8 @@ table {
         width: 100%;
     }
     .connect li{
-        font-size:14px ;    
+        font-size:14px ;   
+        text-align: center; 
     }
     .connect li:hover{
         font-size: 16px;

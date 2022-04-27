@@ -115,7 +115,8 @@ table {
         width: 100%;
     }
     .connect li{
-        font-size:14px ;    
+        font-size:14px ;  
+        text-align: center;  
     }
     .connect li:hover{
         font-size: 16px;
@@ -300,16 +301,14 @@ table {
     }
     .myself{
         width: 100%;
-        height: auto;
     }
     .introspect{
         width: 100%;
-        height: auto;
+        height: 350px;
         font-size: 40px;
     }
     .motivation{
         width: 100%;
-        height: auto;
     }
 }
 /* --------------------------------------------------- */
